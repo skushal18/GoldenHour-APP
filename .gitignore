@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Capacitor / Android generated build files
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+
+# Android local configuration
+android/local.properties
+
+# Android signing keys
+*.jks
+*.keystore
+
+# Temporary files
+*.tmp
+*.temp

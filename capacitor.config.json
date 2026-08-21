@@ -1,0 +1,17 @@
+{
+  "appId": "com.goldenhour.app",
+  "appName": "GoldenHour",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#eef4fb"
+  },
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "Camera": {
+      "androidxMaterialVersion": "1.12.0"
+    }
+  }
+}

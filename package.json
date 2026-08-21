@@ -1,0 +1,27 @@
+{
+  "name": "goldenhour-apk",
+  "version": "3.0.0",
+  "private": true,
+  "description": "GoldenHour - ambulance-side pre-arrival alert app. Plain HTML/CSS/JS web app wrapped by Capacitor into an Android APK.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/test.js && node tests/functional.test.js",
+    "test:unit": "node tests/test.js",
+    "test:functional": "node tests/functional.test.js",
+    "cap:add": "cap add android",
+    "cap:sync": "cap sync android",
+    "cap:copy": "cap copy android",
+    "cap:open": "cap open android",
+    "apk": "cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.0",
+    "@capacitor/camera": "8.2.3",
+    "@capacitor/core": "8.5.0",
+    "@capacitor/geolocation": "8.2.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.0",
+    "jsdom": "30.0.1"
+  }
+}
